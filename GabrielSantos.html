@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOGE - Gabriel Santos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300;1,400;1,500&display=swap');
+    </style>
+    <script>
+        function clicou(){
+            let element = document.querySelector(".dropdown-content");
+
+            if(element.style.display == "block"){
+                element.style.display = "none";
+            } else {
+                element.style.display = "block";
+            }
+        }
+        
+    </script>
+    <link rel="stylesheet" href="css/membros.css">
+</head>
+<body>
+    <div class="nav">
+        <ul class="navItems">
+            <li>
+                <img src="image/doge.png">
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="#" class="dropLink" onclick="clicou()">Membros</a>
+                    <div class="dropdown-content">
+                        <a href="">Cauã Rodrigues</a>
+                        <a href="gabrielmariano.html">Gabriel Mariano</a>
+                        <a href="">Gabriel dos Santos</a>
+                        <a href="">João Fernando</a>
+                        <a href="">João Victor</a>
+                        <a href="">Ted Miranda</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="name">
+        <p>Gabriel Santos Ferreira</p><br>
+        <p>Desenvolvedor</p>
+    </div>
+
+    <div class="info">
+        <div class="text-info">
+            <!-- Escrever sobre você aqui -->
+            <p>Sou iniciante na área da programação, no momento já possuo conhecimentos básicos e buscando
+                aprimoramentos. As linguagens que melhor me desenvolvo são Python e HTML/CSS, agora
+                iniciei meus estudos em JavaScript e em paralelo melhorando meu Inglês.</p><br>
+            <p>Tenho 17 anos, cursando o 2° ano do Ensino Médio, passo meu dia assistindo aulas e a noite
+                costumo ouvir música, poder ser Eletrônica, Indie ou Rap, jogando algum video-game ou 
+                também gosto muito de ler, meus livro favorito é "O Nome do Vento" de Pratrick Rothfuss.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
