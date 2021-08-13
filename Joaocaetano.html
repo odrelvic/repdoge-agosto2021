@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOGE - Gabriel Santos</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300;1,400;1,500&display=swap');
+    </style>
+    <script>
+        function clicou(){
+            let element = document.querySelector(".dropdown-content");
+
+            if(element.style.display == "block"){
+                element.style.display = "none";
+            } else {
+                element.style.display = "block";
+            }
+        }
+        
+    </script>
+    <link rel="stylesheet" href="css/membros.css">
+</head>
+<body>
+    <div class="nav">
+        <ul class="navItems">
+            <li>
+                <img src="image/doge.png">
+            </li>
+            <li>
+                <div class="dropdown">
+                    <a href="#" class="dropLink" onclick="clicou()">Membros</a>
+                    <div class="dropdown-content">
+                        <a href="index.html">Home</a>
+                        <a href="CauaRodrigues.html">Cauã Rodrigues</a>
+                        <a href="GabrielMariano.html">Gabriel Mariano</a>
+                        <a href="GabrielSantos.html">Gabriel dos Santos</a>
+                        <a href="Joaocaetano.html">João Fernando</a>
+                        <a href="">João Victor</a>
+                        <a href="">Ted Miranda</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="name">
+        <p>João Fernando Caetano</p><br>
+        <p>Desenvolvedor</p>
+    </div>
+
+    <div class="info">
+        <div class="text-info">
+            <p> Sou uma pessoa que gosta de ajudar os outros, gosto de aprender e sempre saber o que é certo,
+                e sempre me divertir. Curto muito sair com amigos e também com minha família.</p><br>
+            <p>Tenho 16 anos, faço um curso no Senai de desenvolvimento de sistemas e também estou no 
+                segundo ano do ensino médio. Principais hobbys são escutar música, ver filmes e séries 
+                e passar tempo com meus amigos.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
